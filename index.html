@@ -9,12 +9,12 @@
 		<meta name="keywords" content="form, minimal, interface, single input, big form, responsive form, transition" />
 		<meta name="author" content="Jai Kathuria">
         <!--Custom CSS -->
-		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<link rel="stylesheet" type="text/css" href="css/styles.css" />
         <!--Animate CSS Library -->
         <link rel="stylesheet" type="text/css" href="css/animate.css" />
 	</head>
 	<body>
-        <section>
+        <section class="form hidden">
             <form id="theForm" class="base siform" autocomplete="off">
                 <ol class="question">
 					<li class="current">
@@ -25,8 +25,10 @@
                 </ol>
                 <p><input type="submit" value="Submit" class="btn"> </p>
             </form>
+            
         </section>
-        <!-- JQuery-->
+
+<!--         JQuery-->
         <script src="js/jquery.js"></script>
         <!-- App JS -->
         <script src="js/app.js"></script>
